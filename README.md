@@ -2,6 +2,8 @@
 
  Fractal theory based Acceptance Rejection Monte-Carlo Algorithm (FARMCA) for permeability modeling of sandstone reservoirs
 
+Authors: U. Vadapalli, A. Malkoti, H. Guruhappa, N. Vedanti, V.P. Dimri 
+
 *Corresponding author. E-mail adress: ajmalkoti@gmail.com 
 Submitted to: Computers & Geosciences
 
