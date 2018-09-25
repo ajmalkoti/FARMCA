@@ -176,7 +176,7 @@ disp('saving output files : ')
 %%%%%%%%% Fill duplicated coloumns
 Dt= Dt+Dt1;
 for i=1:length(temp)
-    index1=find(temp(i)==radius.eff);
+    index1=find(temp(i)==LBD.max);
     for j=index1'
         K1.LogKbin_mean(:,j)=K1.LogKbin_mean(:,index1(1));
         K1.err(:,j)=K1.err(:,index1(1));
@@ -324,6 +324,6 @@ for jf=1:8
     saveas(gcf,['OUTPUT/FIGURES/figure',num2str(n)],'jpg')
     close(gcf)
 end
-
+save FARMCA_variables.mat;
 disp('Completed Successfully')
 close(merror)
